@@ -1,5 +1,5 @@
 body{
-			background-color: #45E8FF;
+			background-color: #dedede;
 			font-size: 13px;
 		}
 
@@ -39,7 +39,7 @@ p{
 	 
 	    }
 
-ul, li{
+ul li, ol li{
 	    	font-size: 25px;
 	    	text-decoration: underline;
 	    	margin: 10px 400px 10px 10px;
@@ -57,7 +57,7 @@ a:visited {
 		}
 
 a:hover {
-		  color: #FF35C5;
+		  color: #FF35C5	;
 		  background-color: transparent;
 		  text-decoration: underline;
 		}
@@ -68,4 +68,16 @@ a:active {
 		  text-decoration: underline;
 		}
 
+table {
+		  border-collapse: collapse;
+		  width: 100%;
+		  font-size: 25px;
+	    }
 
+td, th {  
+	      border: 1px solid #000000;
+	      text-align: center;
+	      padding: 8px;
+
+
+         }
