@@ -1,69 +1,97 @@
 <!DOCTYPE html> <!-- Versão do Html/Html5 -->
 <html> <!-- Inicio da página -->
-	<head lang="pt-br"> <!-- Cabeçalho -->
+<head lang="pt-br"> <!-- Cabeçalho -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<title> Site Muito Daora 1C </title> <!-- Título do site -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head> 
-	<body>  <!-- Conteúdo da Página -->	 
-		
-		<h1>Introdução ao HTML</h1> <!-- Título 1 -->
-			<p>	HTML (Hyper Text Markup Language) é uma Linguagem de Marcação de Hipertexto utilizada para criação de páginas da Web. Essa é a linguagem que o seu navegador (Browser) decodifica para exibir as páginas.</p> <!-- Parágrafo  -->
-			<p>O HTML é baseado no conceito de Hipertexto. Hipertexto são conjuntos de elementos – ou nós – ligados por conexões. Estes elementos podem ser palavras, imagens, vídeos, áudio, documentos etc.​</p>
-			<p> Você pode aprender HTML e outras linguagens se clicar </p>
-			<p><a href="https://www.w3schools.com/" target="_blank">AQUI</a></p>
-		<h2> Breve Histórico da evolução do  HTML​ </h2> <!-- Título 2 -->
-			<p> Desde a invenção da web em 1992 por Tim Berners-Lee, a HTML evoluiu a cada versão lançada, sendo a versão mais atual a HTML5. </p>
-		<figure>
-			<img src="img/evo.PNG" alt="Imagem Da Evolução Do HTML"> <!-- Imagem -->
-		</figure>
-		<figure>
-			<img src="img/50 mi.PNG" alt="Periodo de tempo que a tecnologia demorou para atingir 50 milhões de usuários">
-    	</figure>
+</head> 
 	
-	<h1> O que é o W3C​ </h1>
-			<p> O W3C (World Wide Web Consortium), criado em outubro de 1994 por Tim Berners-Lee, é um consórcio internacional formado por empresas, instituições, pesquisadores, desenvolvedores e público em geral. A finalidade desse consórcio é desenvolver a web a seu potencial máximo, criando normas, especificações e padronizações que se aplicam aos mais diversos segmentos e setores da web. </p>
-		<h2> A formação da W3C​ </h2>
-			<p> Durante os próximas anos, o W3C publicou várias especificações (chamadas “recomendações”) incluindo o HTML, o formato de imagens PNG, e as Folhas de Estilo em Cascata versões 1 e 2.​ </p>
-		<h2> A Formação da W3C </h2>
-			<h3> Consórcio W3C </h3> <!-- Título 3 -->
-				<ul> <!-- Lista não ordenada --> 	
-  	 		 		<li>Desenvolve Recomendações abertas (Padrões Web);</li> <!-- Item da lista -->
-  	  				<li>Até agora mais de 80 padrões</li>
-  	 		    	<li>Engajado em educação, expansão e desenvolvimento de orientações;</li>
-  	  				<li>Um fórum neutro para construir consenso em torno de padrões web.</li>
-  	  				<li>Padrões web devem ser abertos , isto é, não proprietários;</li>
-  	  				<li>A web deve ser acessível a todos</li> 
-				</ul>  
-
-	<h1> O que é e para que serve o CSS </h1>
-			<p>CSS (Cascading Style Sheets — Folhas de Estilos em Cascata) é uma extensão da HTML, uma linguagem de estilo, ou seja, fazendo o uso dessa linguagem é possível definir como o conteúdo dos elementos HTML serão apresentados na página da Web. Essa extensão foi incorporada à linguagem HTML a partir de sua quarta versão em 1997.​ </p>	
-		<h2> Benefícios do uso do CSS </h2>
-			<ul>
-				<li>Controle do layout de diversos documentos utilizando apenas uma folha de estilos.​</li>
-				<li>Maior precisão no controle do layout e design​</li>
-				<li>Aplicação de diferentes layouts para adaptação do conteúdo e design em diferentes formas de apresentação (impressoras, telas de diferentes tamanhos, etc.) (W3CSCHOOL, ONLINE)​</li>
-			</ul>
-
-		<h2> Editores HTML </h2>
-			<p> Os editores HTML são os softwares que utilizamos para criar as páginas da web empregando as linguagens de marcação e de estilo. Tais editores possuem diversas funcionalidades que auxiliam no processo de desenvolvimento da página, proporcionando, por exemplo a visualização do projeto tanto em linhas de códigos quanto em design de apresentação. </p>
-
-		<h2> Diferença entre um arquivo de extensão .html e .htm​ </h2>
-			<p> A extensão .html é a mais usual e comum hoje em dia. A extensão .htm é mais antiga, época em que o sistema DOS era um dos mais utilizados e só aceitava extensões de arquivos que contivessem 3 caracteres (por exemplo: doc, txt, exe…)​ </p>
+<body>  <!-- Conteúdo da Página -->	 
+	<header>
+		<nav><h1>Introdução ao HTML</h1></nav>
+	</header>	
+	<div>	
+				<h1 class="margin_top">HTML é a linguagem de marcação padrão para páginas web</h1> <!-- Título 1 -->
+					
+					<p class="center">	HTML (Hyper Text Markup Language) é uma Linguagem de Marcação de Hipertexto utilizada para criação de páginas da Web. Essa é a linguagem que o seu navegador (Browser) decodifica para exibir as páginas.</p> <!-- Parágrafo  -->
+					
+					<p class="center">O HTML é baseado no conceito de Hipertexto. Hipertexto são conjuntos de elementos ligados por conexões. Estes elementos podem ser palavras, imagens, vídeos, áudio, documentos etc.​</p>
+					
+					<p class="center"><a href="https://www.w3schools.com/" target="_blank">Clicando aqui você pode aprender mais sobre HTML e outras linguagens</a></p>
+				
+				<h2> Breve Histórico da evolução do  HTML​ </h2> <!-- Título 2 -->
+					
+					<p class="center"> Desde a invenção da web em 1992 por Tim Berners-Lee, a HTML evoluiu a cada versão lançada, sendo a versão mais atual a HTML5. </p>
+				
+				<figure class="center">
+					<img src="img/evo.png" alt="Imagem Da Evolução Do HTML"> <!-- Imagem -->
+				</figure>
+				
+				<figure class="center">
+					<img src="img/50_mi.png" alt="Periodo de tempo que a tecnologia demorou para atingir 50 milhões de usuários">
+		    	</figure>
 			
-		<div>
-			<p> Se você gostou do assunto e deseja saber mais sobre esse assunto </p> 
-			<p> <a href="javascript.html" target="_self"> CLIQUE AQUI </a> </p> 
-			<p> para conhecer um pouco sobre JavaScript </p>
-		</div>
+				<h1 class="margin_top"> O que é o W3C​ </h1>
+					
+					<p class="center"> O W3C (World Wide Web Consortium), criado em outubro de 1994 por Tim Berners-Lee, é um consórcio internacional formado por empresas, instituições, pesquisadores, desenvolvedores e público em geral. A finalidade desse consórcio é desenvolver a web a seu potencial máximo, criando normas, especificações e padronizações que se aplicam aos mais diversos segmentos e setores da web. </p>
+				
+				<h2> A formação da W3C​ </h2>
+					
+					<p class="center"> Durante os próximas anos, o W3C publicou várias especificações (chamadas “recomendações”) incluindo o HTML, o formato de imagens PNG, e as Folhas de Estilo em Cascata versões 1 e 2.​ </p>
+				
+				<h3 class="center"> Consórcio W3C </h3> <!-- Título 3 -->
+						
+						<ul class="center"> <!-- Lista não ordenada --> 	
+		  	 		 		<li class="center">Desenvolve Recomendações abertas (Padrões Web);</li> <!-- Item da lista -->
+		  	  				<li class="center">Até agora mais de 80 padrões</li>
+		  	 		    	<li class="center">Engajado em educação, expansão e desenvolvimento de orientações;</li>
+		  	  				<li class="center">Um fórum neutro para construir consenso em torno de padrões web.</li>
+		  	  				<li class="center">Padrões web devem ser abertos , isto é, não proprietários;</li>
+		  	  				<li class="center"> A web deve ser acessível a todos </li> 
+						</ul>  
+	        </div>
 			
+			<div>
+				
+				<h1 class="margin_top"> O que é e para que serve o CSS </h1>
+					
+					<p class="center">CSS (Cascading Style Sheets — Folhas de Estilos em Cascata) é uma extensão da HTML, uma linguagem de estilo, ou seja, fazendo o uso dessa linguagem é possível definir como o conteúdo dos elementos HTML serão apresentados na página da Web. Essa extensão foi incorporada à linguagem HTML a partir de sua quarta versão em 1997.​ </p>	
+					
+					<h2> Benefícios do uso do CSS </h2>
+						
+						<ul class="center">
+							<li class="center">Controle do layout de diversos documentos utilizando apenas uma folha de estilos.​</li>
+							<li class="center">Maior precisão no controle do layout e design​</li>
+							<li class="center">Aplicação de diferentes layouts para adaptação do conteúdo e design em diferentes formas de apresentação (impressoras, telas de diferentes tamanhos, etc.) (W3CSCHOOL, ONLINE)​</li>
+						</ul>
 
-			<figure>
-				 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_self">
-				 <img src="img/obrigado.PNG" alt="Obrigado pela atenção!"> 
-		         </a>	
-			</figure>
-		   <p> Ei, psiu! Você aí, quer ver algo legal? Clique na imagem acima (▀̿Ĺ̯▀̿ ̿) </p>
-	</body>
+					<h2> Editores HTML </h2>
+						
+						<p class="center"> Os editores HTML são os softwares que utilizamos para criar as páginas da web empregando as linguagens de marcação e de estilo. Tais editores possuem diversas funcionalidades que auxiliam no processo de desenvolvimento da página, proporcionando, por exemplo a visualização do projeto tanto em linhas de códigos quanto em design de apresentação. </p>
+
+					<h2> Diferença entre um arquivo de extensão .html e .htm​ </h2>
+						
+						<p class="center"> A extensão .html é a mais usual e comum hoje em dia. A extensão .htm é mais antiga, época em que o sistema DOS era um dos mais utilizados e só aceitava extensões de arquivos que contivessem 3 caracteres (por exemplo: doc, txt, exe…)​ </p>
+			</div>	
+			
+			<div>
+				<p class="center"><a href="javascript.html" target="_self"> Clique aqui para conhecer um pouco sobre JavaScript </a></p>
+			</div>
+				
+			<div>
+				<figure class="center">
+					 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_self">
+					 <img src="img/obrigado.png" alt="Obrigado pela atenção!"> 
+			         </a>	
+				</figure>
+			</div>
+	</div>
+	
+	<footer>
+	   	<p class="center"> Ei, psiu! Você aí, quer ver algo legal? Clica aí na imagem acima (▀̿Ĺ̯▀̿ ̿) </p>
+	</footer>
+
+</body>
 </html>
