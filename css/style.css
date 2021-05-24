@@ -38,7 +38,7 @@ header, footer{
 
 @media screen and (max-width: 599px){
 	.container{	
-        margin-top: 65%;
+        margin-top: 60%;
         font-size: 100%
     }
 
@@ -131,7 +131,7 @@ header, footer{
 	    text-align: center;
 	    width: 25%;
 	    margin-left:35%; 
-	    margin-bottom: 2.5%;
+	    margin-bottom: 3%;
 }
 
 .imglogo {	
