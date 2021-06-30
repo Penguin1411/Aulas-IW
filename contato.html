@@ -1,0 +1,101 @@
+<!DOCTYPE html> <!-- Versão do Html/Html5 -->
+<html> <!-- Inicio da página -->
+  <head lang="pt-br"> <!-- Cabeçalho -->
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+		  <title> Site Muito Daora 1C 2 </title> <!-- Título do site -->
+		  <link rel="stylesheet" type="text/css" href="css/reset.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+      <link rel="shortcu icon" href="img/favicon.png">
+  </head> 
+	
+  <body>
+    <div class="container">
+        <header class="fixo">
+          <img class="imglogo" src="img/logotipo.png">
+          <nav class="menu-opcoes">
+            <ul class="ajustes">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="index.html">Sobre</a></li>
+              <li><a href="index.html#sobre">HTML</a></li>
+              <li><a href="index.html#css">CSS</a></li>
+              <li><a href="javascript.html">JavaScript</a></li>
+              <li><a href="posicionamento.html">Posicionamentos</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="titulo"><h1>Formulário de Contato</h1></div>
+    
+          <div class="forms"> <!-- Formulário -->
+              <h2>Entre em contato conosoco!</h2>
+              <form>
+                  <div class="distancia">
+                      <label>Nome</label>
+                      <input type="text" placeholder="Digite seu nome...">
+                  </div>
+                  <div class="distancia">
+                      <label>E-mail: </label>
+                      <input type="email" placeholder="Digite seu e-mail...">
+                  </div>
+                  <div class="distancia">
+                      <label>Data de nascimento</label>
+                      <input type="date" name="dataNascimento" style="font-size: 1.2em">
+                  </div>
+                  <div class="distancia">
+                      <fieldset>
+                          <legend>De sua opnião do Site</legend>
+
+                          <input type="radio" id="mb" name="opniao" value="mb">
+                          <label for="mb">Muito Bom</label><br>
+
+                          <input type="radio" id="b" name="opniao" value="b">
+                          <label for="b">Bom</label><br>
+
+                          <input type="radio" id="r" name="opniao" value="r">
+                          <label for="re">Regular</label><br>
+
+                          <input type="radio" id="r" name="opniao" value="r">
+                          <label for="r">Ruim</label><br>
+
+                          <input type="radio" id="mr" name="opniao" value="mr">
+                          <label for="mr">Muito Ruim</label><br>
+                      </fieldset>     
+                  </div>
+                  <div class="distancia">
+                      <fieldset>
+                          <legend>Marque seus preferidos</legend>
+
+                          <input type="checkbox">
+                          <label> HTML </label><br>
+
+                          <input type="checkbox">
+                          <label> CSS </label><br>
+
+                          <input type="checkbox">
+                          <label> JavaScript </label><br>
+
+                          <input type="checkbox">
+                          <label> Posicionamentos </label><br>
+                      </fieldset>
+                  </div>
+                  <div class="distancia">
+                     <label>Deixe uma mensagem para os desenvolvedores</label>
+                     <textarea name="message" placeholder="Digite seu texto..." style="width: 100%; height: 250px;"></textarea><br><br>           
+                  </div>
+                  <div class="distancia">
+                      <input type="submit" value="Enviar">
+                  </div>
+              </form>
+          </div> <!-- /Formulário -->
+    </div>
+    <div class="texto"> 
+        <footer>
+            <h5><a href="index.html" target="_self"> Clique aqui se deseja retornar para a página principal </a></h5>
+        </footer>  
+    </div>
+		
+  </body>
+	
+</html>

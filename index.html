@@ -12,20 +12,47 @@
 <body>  <!-- Conteúdo da Página -->	 
 		
 	<div class="container">
-			
-			<header class="fixo">
-				<img class="imglogo" src="img/logotipo.png">
-				<nav class="menu-opcoes">
-					<ul class="ajustes">
-						<li><a href="#">Inicio</a></li>
-						<li><a href="#">HTML</a></li>
-						<li><a href="#css">CSS</a></li>
-						<li><a href="javascript.html">JavaScript</a></li>
-						<li><a href="posicionamento.html">Posicionamentos</a></li>
-						<li><a href="#">Contato</a></li>
-					</ul>
-				</nav>
-			</header>	
+		<header class="fixo">
+          <img class="imglogo" src="img/logotipo.png">
+          <nav class="menu-opcoes">
+            <ul class="ajustes">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="index.html">Sobre</a></li>
+              <li><a href="index.html#sobre">HTML</a></li>
+              <li><a href="index.html#css">CSS</a></li>
+              <li><a href="javascript.html">JavaScript</a></li>
+              <li><a href="posicionamento.html">Posicionamentos</a></li>
+              <li><a href="index.html#galeria">Galeria</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </nav>
+        </header>
+			<div class="imagerover">
+				<section id="sobre">
+					<h1> Sobre </h1>
+					<div class="sobre">
+						<img class="imgsobre" src="img/garrarobotica.png">
+						<h3>WEB</h3>
+						<p>Aqui você vera as três línguagens principais na área do desenvolvimento WEB</p>
+					</div>
+					<div class="sobre">
+						<img class="imgsobre" src="img/maorobotica.png">
+						<h3>HTML</h3>
+						<p>A principal línguagem de demarcação WEB. Cria a estrutura para o site</p>
+					</div>
+					<div class="sobre">
+						<img class="imgsobre" src="img/bracorobotico.png">
+						<h3>CSS</h3>
+						<p>A línguagem de formatação WEB. Gera o estilo do site</p>
+						
+					</div>
+					<div class="sobre">
+						<img class="imgsobre" src="img/caorobotico.png">
+						<h3>JavaScript</h3>
+						<p>Uma das mais utilizadas línguagens de programação para WEB. Gera o comportamento e a lógica do site</p>
+					</div>
+				</section>
+			</div>
 		  <div class="texto">   
 			    <div id="html"> <!-- HTML -->
 			    	<h2 class>Introdução ao HTML</h2>
@@ -38,13 +65,13 @@
 						<p> Ao longo dos anos, o W3C publicou várias especificações (chamadas “recomendações”) incluindo o HTML, o formato de imagens PNG, e as Folhas de Estilo em Cascata versões 1 e 2.​ </p>
 
 						<div id="css" class="imagerover">
-						<figure class="imgdireita">
-						<img class="imgtexto" src="img/50_mi.png" alt="Periodo de tempo que a tecnologia demorou para atingir 50 milhões de usuários" width="50%" height="30%">
-				    	</figure>
+							<figure>
+								<img class="imgtexto" src="img/50_mi.png" alt="Periodo de tempo que a tecnologia demorou para atingir 50 milhões de usuários" width="50%" height="30%">
+				    		</figure>
 						</div>  
 
 			    </div> <!-- /HTML -->	
-				<div> <!-- CSS -->	
+				<div id="css"> <!-- CSS -->	
 						<h2> Introdução ao CSS </h2>
 							
 							<p>⠀⠀⠀⠀CSS (Cascading Style Sheets — Folhas de Estilos em Cascata) é uma extensão do HTML, uma linguagem de estilo, ou seja, fazendo o uso dessa linguagem é possível definir como o conteúdo dos elementos HTML serão apresentados na página da Web. Essa extensão foi incorporada à linguagem HTML a partir de sua quarta versão em 1997.​ </p>	
@@ -53,10 +80,10 @@
 
 							<p>⠀⠀⠀⠀O CSS é uma ferramenta essencial para criar bons sitex. A seguir temos alguns benefícios que ele pode trazer se ultilizado corretamente. </p>
 								
-							<ul class="lista">
-								<li class="lista">Controle do layout documentos com apenas uma folha de estilos.​</li>
-								<li class="lista">Precisão no controle do layout e design​</li>
-								<li class="lista">Aplicação de diferentes layouts para adaptação do conteúdo e design em diferentes formas de apresentação</li>
+							<ul>
+								<li class="item">Controle do layout documentos com apenas uma folha de estilos.​</li>
+								<li class="item">Precisão no controle do layout e design​</li>
+								<li class="item">Aplicação de diferentes layouts para adaptação do conteúdo e design em diferentes formas de apresentação</li>
 							</ul>
 
 						<h2> Editores HTML </h2>
@@ -67,6 +94,76 @@
 								
 							<p>⠀⠀⠀⠀A extensão .html é a mais usual e comum hoje em dia. A extensão .htm é mais antiga, época em que o sistema DOS era um dos mais utilizados e só aceitava extensões de arquivos que contivessem 3 caracteres (por exemplo: doc, txt, exe…)​ </p>
 				</div> <!-- /CSS -->
+
+				<div id="galeria">
+					<div class="galeria">			
+						<figure>
+							<img class="imggaleria" src="img/galeria/cplus.jpg">
+							<h4>Aqui temos</h4>
+							
+						</figure>
+						
+					</div>
+					<div class="galeria">
+						<figure>
+							<img class="imggaleria" src="img/galeria/csharp.jpg">
+							<h4>Algumas imagens</h4>
+							
+						</figure>
+						
+					</div>
+					<div class="galeria">
+						<figure>
+							<img class="imggaleria" src="img/galeria/css.jpg">
+							<h4>De línguagens de </h4>
+
+							
+						</figure>
+						
+					</div>
+					<div class="galeria">
+						<figure>
+							<img class="imggaleria" src="img/galeria/html.jpg">
+							<h4>Programação,	 e...</h4>
+							
+						</figure>
+						
+					</div>
+					<div class="galeria">
+						<figure>
+							<img class="imggaleria" src="img/galeria/javascript.jpg">
+							<h4>Desenvolvimeto WEB</h4>
+							
+						</figure>
+						
+					</div>
+					<div class="galeria">
+						<figure>
+							<img class="imggaleria" src="img/galeria/python.jpg">
+							<h4>Como HTLM</h4>
+							
+						</figure>
+						
+					</div>
+					<div class="galeria">
+						<figure>
+							<img class="imggaleria" src="img/galeria/python2.jpg">
+							<h4>CSS</h4>
+
+						</figure>
+						
+					</div>
+					<div class="galeria">
+						<figure>
+							<img class="imggaleria" src="img/galeria/css2.jpg">
+							<h4>E JavaScript</h4>
+							
+						</figure>
+						
+					</div>
+					
+				</div>
+
 									
 				<div class="imagerover"> <!-- FIM -->
 					<figure class="center">
@@ -75,9 +172,8 @@
 					     </a>	
 					</figure>
 				</div><!-- /FIM -->
-
 				<footer>
-			   		<h4> Ei, psiu! Você aí, quer ver algo legal? Clica nesse robô aí em acima (▀̿Ĺ̯▀̿ ̿) </h4>
+			   		<h5> Ei, psiu! Você aí, quer ver algo legal? Clica nesse robô aí em acima (▀̿Ĺ̯▀̿ ̿) </h5>
 				</footer>
 		  </div>
 	</div>
